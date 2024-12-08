@@ -1,6 +1,0 @@
-CompileFlags:
-    Add:
-        - -ID:\Program Files (x86)\Keil5\CORE\ARM\ARMCLANG/include
-        - -ID:\Program Files (x86)\Keil5\CORE\ARM\ARMCLANG/include/libcxx
-    CompilationDatabase: ./build/QSPI_LCD
-    Compiler: D:\Program Files (x86)\Keil5\CORE\ARM\ARMCLANG\bin\armclang.exe
