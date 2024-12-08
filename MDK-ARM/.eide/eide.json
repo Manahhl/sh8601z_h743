@@ -1,0 +1,1195 @@
+{
+  "name": "QSPI_LCD",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "Application",
+        "files": [],
+        "folders": [
+          {
+            "name": "MDK-ARM",
+            "files": [
+              {
+                "path": "startup_stm32h743xx.s"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "User",
+            "files": [],
+            "folders": [
+              {
+                "name": "Core",
+                "files": [
+                  {
+                    "path": "../Core/Src/main.c"
+                  },
+                  {
+                    "path": "../Core/Src/gpio.c"
+                  },
+                  {
+                    "path": "../Core/Src/usart.c"
+                  },
+                  {
+                    "path": "../Core/Src/stm32h7xx_it.c"
+                  },
+                  {
+                    "path": "../Core/Src/stm32h7xx_hal_msp.c"
+                  },
+                  {
+                    "path": "../Core/Src/tim.c"
+                  },
+                  {
+                    "path": "../Core/Src/mpu.c"
+                  },
+                  {
+                    "path": "../Core/Src/iic.c"
+                  },
+                  {
+                    "path": "../Core/Src/spi.c"
+                  }
+                ],
+                "folders": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Drivers",
+        "files": [],
+        "folders": [
+          {
+            "name": "STM32H7xx_HAL_Driver",
+            "files": [
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c"
+              },
+              {
+                "path": "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "CMSIS",
+            "files": [
+              {
+                "path": "../Core/Src/system_stm32h7xx.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "HARDWARE",
+        "files": [
+          {
+            "path": "../HARDWARE/QSPI.c"
+          },
+          {
+            "path": "../HARDWARE/lcd_init.c"
+          },
+          {
+            "path": "../HARDWARE/lcd.c"
+          },
+          {
+            "path": "../HARDWARE/cst816d.c"
+          },
+          {
+            "path": "../HARDWARE/lcd_demo.c"
+          },
+          {
+            "path": "../HARDWARE/w25qxx_spi.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "LVGL",
+        "files": [
+          {
+            "path": "../LVGL/src/core/lv_disp.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_event.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_group.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_indev.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_indev_scroll.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_obj.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_obj_class.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_obj_draw.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_obj_pos.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_obj_scroll.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_obj_style.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_obj_style_gen.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_obj_tree.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_refr.c"
+          },
+          {
+            "path": "../LVGL/src/core/lv_theme.c"
+          },
+          {
+            "path": "../LVGL/src/draw/arm2d/lv_gpu_arm2d.c"
+          },
+          {
+            "path": "../LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c"
+          },
+          {
+            "path": "../LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c"
+          },
+          {
+            "path": "../LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl_arc.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl_bg.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl_composite.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl_img.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl_label.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl_layer.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl_line.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl_mask.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl_polygon.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl_rect.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sdl/lv_draw_sdl_utils.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sw/lv_draw_sw.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sw/lv_draw_sw_arc.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sw/lv_draw_sw_blend.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sw/lv_draw_sw_dither.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sw/lv_draw_sw_gradient.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sw/lv_draw_sw_img.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sw/lv_draw_sw_layer.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sw/lv_draw_sw_letter.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sw/lv_draw_sw_line.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sw/lv_draw_sw_polygon.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sw/lv_draw_sw_rect.c"
+          },
+          {
+            "path": "../LVGL/src/draw/sw/lv_draw_sw_transform.c"
+          },
+          {
+            "path": "../LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c"
+          },
+          {
+            "path": "../LVGL/src/draw/lv_draw.c"
+          },
+          {
+            "path": "../LVGL/src/draw/lv_draw_arc.c"
+          },
+          {
+            "path": "../LVGL/src/draw/lv_draw_img.c"
+          },
+          {
+            "path": "../LVGL/src/draw/lv_draw_label.c"
+          },
+          {
+            "path": "../LVGL/src/draw/lv_draw_layer.c"
+          },
+          {
+            "path": "../LVGL/src/draw/lv_draw_line.c"
+          },
+          {
+            "path": "../LVGL/src/draw/lv_draw_mask.c"
+          },
+          {
+            "path": "../LVGL/src/draw/lv_draw_rect.c"
+          },
+          {
+            "path": "../LVGL/src/draw/lv_draw_transform.c"
+          },
+          {
+            "path": "../LVGL/src/draw/lv_draw_triangle.c"
+          },
+          {
+            "path": "../LVGL/src/draw/lv_img_buf.c"
+          },
+          {
+            "path": "../LVGL/src/draw/lv_img_cache.c"
+          },
+          {
+            "path": "../LVGL/src/draw/lv_img_decoder.c"
+          },
+          {
+            "path": "../LVGL/src/extra/layouts/flex/lv_flex.c"
+          },
+          {
+            "path": "../LVGL/src/extra/layouts/grid/lv_grid.c"
+          },
+          {
+            "path": "../LVGL/src/extra/themes/basic/lv_theme_basic.c"
+          },
+          {
+            "path": "../LVGL/src/extra/themes/default/lv_theme_default.c"
+          },
+          {
+            "path": "../LVGL/src/extra/themes/mono/lv_theme_mono.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/animimg/lv_animimg.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/calendar/lv_calendar.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/chart/lv_chart.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/keyboard/lv_keyboard.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/led/lv_led.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/list/lv_list.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/menu/lv_menu.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/meter/lv_meter.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/msgbox/lv_msgbox.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/span/lv_span.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/spinbox/lv_spinbox.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/spinner/lv_spinner.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/tabview/lv_tabview.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/tileview/lv_tileview.c"
+          },
+          {
+            "path": "../LVGL/src/extra/widgets/win/lv_win.c"
+          },
+          {
+            "path": "../LVGL/src/extra/lv_extra.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_fmt_txt.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_loader.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_8.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_10.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_12.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_12_subpx.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_14.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_16.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_18.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_20.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_22.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_24.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_26.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_28.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_28_compressed.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_30.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_32.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_34.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_36.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_38.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_40.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_42.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_44.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_46.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_montserrat_48.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_simsun_16_cjk.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_unscii_8.c"
+          },
+          {
+            "path": "../LVGL/src/font/lv_font_unscii_16.c"
+          },
+          {
+            "path": "../LVGL/src/hal/lv_hal_disp.c"
+          },
+          {
+            "path": "../LVGL/src/hal/lv_hal_indev.c"
+          },
+          {
+            "path": "../LVGL/src/hal/lv_hal_tick.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_anim.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_anim_timeline.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_area.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_async.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_bidi.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_color.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_fs.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_gc.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_ll.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_log.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_lru.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_math.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_mem.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_printf.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_style.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_style_gen.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_timer.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_tlsf.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_txt.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_txt_ap.c"
+          },
+          {
+            "path": "../LVGL/src/misc/lv_utils.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_arc.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_bar.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_btn.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_btnmatrix.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_canvas.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_checkbox.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_dropdown.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_img.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_label.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_line.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_roller.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_slider.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_switch.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_table.c"
+          },
+          {
+            "path": "../LVGL/src/widgets/lv_textarea.c"
+          },
+          {
+            "path": "../LVGL/src/extra/libs/gif/gifdec.c"
+          },
+          {
+            "path": "../LVGL/src/extra/libs/gif/lv_gif.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "LVGL_port",
+        "files": [
+          {
+            "path": "../LVGL/examples/porting/lv_port_disp_template.c"
+          },
+          {
+            "path": "../LVGL/examples/porting/lv_port_indev_template.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "LVGL_demo",
+        "files": [
+          {
+            "path": "../LVGL/demo/lv_demos.h"
+          },
+          {
+            "path": "../LVGL/demo/stress/lv_demo_stress.c"
+          },
+          {
+            "path": "../LVGL/demo/stress/lv_demo_stress.h"
+          },
+          {
+            "path": "../LVGL/demo/music/lv_demo_music.c"
+          },
+          {
+            "path": "../LVGL/demo/music/lv_demo_music.h"
+          },
+          {
+            "path": "../LVGL/demo/music/lv_demo_music_list.c"
+          },
+          {
+            "path": "../LVGL/demo/music/lv_demo_music_list.h"
+          },
+          {
+            "path": "../LVGL/demo/music/lv_demo_music_main.c"
+          },
+          {
+            "path": "../LVGL/demo/music/lv_demo_music_main.h"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_corner_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_list_pause.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_list_pause_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_list_play.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_list_play_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_loop.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_loop_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_next.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_next_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_pause.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_pause_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_play.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_play_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_prev.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_prev_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_rnd.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_btn_rnd_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_corner_left.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_corner_left_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_corner_right.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_corner_right_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_cover_1.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_cover_1_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_cover_2.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_cover_2_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_cover_3.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_cover_3_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_icon_1.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_icon_1_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_icon_2.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_icon_2_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_icon_3.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_icon_3_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_icon_4.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_icon_4_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_list_border.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_list_border_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_logo.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_slider_knob.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_slider_knob_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_wave_bottom.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_wave_bottom_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_wave_top.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/img_lv_demo_music_wave_top_large.c"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/spectrum_1.h"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/spectrum_2.h"
+          },
+          {
+            "path": "../LVGL/demo/music/assets/spectrum_3.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "LVGL_example",
+        "files": [
+          {
+            "path": "../LVGL/examples/libs/gif/img_bulb_gif.c"
+          },
+          {
+            "path": "../LVGL/examples/libs/gif/lv_example_gif_1.c"
+          },
+          {
+            "path": "../LVGL/examples/lv_examples.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "RT_src",
+        "files": [
+          {
+            "path": "../RT_Thread/src/clock.c"
+          },
+          {
+            "path": "../RT_Thread/src/components.c"
+          },
+          {
+            "path": "../RT_Thread/src/cpu.c"
+          },
+          {
+            "path": "../RT_Thread/src/idle.c"
+          },
+          {
+            "path": "../RT_Thread/src/ipc.c"
+          },
+          {
+            "path": "../RT_Thread/src/irq.c"
+          },
+          {
+            "path": "../RT_Thread/src/kservice.c"
+          },
+          {
+            "path": "../RT_Thread/src/mem.c"
+          },
+          {
+            "path": "../RT_Thread/src/memheap.c"
+          },
+          {
+            "path": "../RT_Thread/src/mempool.c"
+          },
+          {
+            "path": "../RT_Thread/src/object.c"
+          },
+          {
+            "path": "../RT_Thread/src/scheduler.c"
+          },
+          {
+            "path": "../RT_Thread/src/slab.c"
+          },
+          {
+            "path": "../RT_Thread/src/thread.c"
+          },
+          {
+            "path": "../RT_Thread/src/timer.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "board",
+        "files": [
+          {
+            "path": "../RT_Thread/board/board.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "cpu_sup",
+        "files": [
+          {
+            "path": "../RT_Thread/libcpu/context_rvds.S"
+          },
+          {
+            "path": "../RT_Thread/libcpu/cpu_cache.c"
+          },
+          {
+            "path": "../RT_Thread/libcpu/cpuport.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "RT_components",
+        "files": [
+          {
+            "path": "../RT_Thread/components/drivers/ipc/completion.c"
+          },
+          {
+            "path": "../RT_Thread/components/finsh/cmd.c"
+          },
+          {
+            "path": "../RT_Thread/components/finsh/msh.c"
+          },
+          {
+            "path": "../RT_Thread/components/finsh/msh_file.c"
+          },
+          {
+            "path": "../RT_Thread/components/finsh/shell.c"
+          },
+          {
+            "path": "../RT_Thread/components/device/device.c"
+          },
+          {
+            "path": "../RT_Thread/components/finsh/finsh_port.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Fatfs",
+        "files": [
+          {
+            "path": "../FATFS/diskio.c"
+          },
+          {
+            "path": "../FATFS/ff.c"
+          },
+          {
+            "path": "../FATFS/ffsystem.c"
+          },
+          {
+            "path": "../FATFS/ffunicode.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "::CMSIS",
+        "files": [],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "66b702b1a9f1b53c97d68e8f11de9678"
+  },
+  "targets": {
+    "QSPI_LCD": {
+      "excludeList": [],
+      "toolchain": "AC6",
+      "compileConfig": {
+        "cpuType": "Cortex-M7",
+        "floatingPointHardware": "double",
+        "scatterFilePath": "stm32-v7.sct",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x30000000",
+                "size": "0x48000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x38000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x20000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x24000000",
+                "size": "0x80000"
+              },
+              "isChecked": true,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x100000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x8100000",
+                "size": "0x100000"
+              },
+              "isChecked": true,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "STLink",
+      "uploadConfig": {
+        "bin": "${ExecutableName}.hex",
+        "proType": "SWD",
+        "resetMode": "default",
+        "runAfterProgram": true,
+        "speed": 4000,
+        "address": "0x8000000",
+        "elFile": "None",
+        "optionBytes": ".eide/qspi_lcd.st.option.bytes.ini",
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../Core/Inc",
+          "../Drivers/STM32H7xx_HAL_Driver/Inc",
+          "../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+          "../Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+          "../Drivers/CMSIS/Include",
+          "../HARDWARE",
+          "../LVGL",
+          "../LVGL/src",
+          "../LVGL/examples/porting",
+          "../LVGL/src/hal",
+          "../LVGL/demo",
+          "../LVGL/demo/stress",
+          "../LVGL/demo/music",
+          "../LVGL/demo/music/assets",
+          "../LVGL/examples",
+          "../LVGL/examples/libs",
+          "../LVGL/examples/libs/gif",
+          "../LVGL/src/extra/libs",
+          "../RT_Thread/include",
+          "../RT_Thread/include/libc",
+          "../RT_Thread/board",
+          "../RT_Thread/components/drivers/include/ipc",
+          "../RT_Thread/components/drivers/include",
+          "../FATFS",
+          "../RT_Thread/components/finsh",
+          "RTE/_QSPI_LCD"
+        ],
+        "libList": [],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32H750xx"
+        ]
+      },
+      "builderOptions": {
+        "AC6": {
+          "version": 3,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "use-microLIB": true,
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "level-1",
+            "language-c": "c99",
+            "language-cpp": "c++11",
+            "link-time-optimization": false,
+            "one-elf-section-per-function": true,
+            "short-enums#wchar": true,
+            "warnings": "no-warnings"
+          },
+          "asm-compiler": {
+            "$use": "asm-auto"
+          },
+          "linker": {
+            "output-format": "elf",
+            "misc-controls": "--diag_suppress=L6329",
+            "xo-base": "",
+            "ro-base": "0x08000000",
+            "rw-base": "0x20000000",
+            "$disableOutputTask": true
+          }
+        }
+      }
+    }
+  },
+  "version": "3.5"
+}

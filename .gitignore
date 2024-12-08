@@ -1,4 +1,10 @@
 *.o
 .vscode/
 MDK-ARM/build/
+MDK-ARM/*.uvguix.*
+MDK-ARM/.cmsis/
+MDK-ARM/.eide/
+MDK-ARM/.vscode/
+MDK-ARM/*.clang*
+MDK-ARM/*.uvoptx
 
