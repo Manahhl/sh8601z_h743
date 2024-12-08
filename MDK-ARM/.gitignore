@@ -1,19 +1,27 @@
 # dot files
-/.vscode/l
+/.vscode
 /.settings
 /.eide
 /.cmsis
+/DebugConfig
 
 # project out
 /build
 /bin
 /obj
 /out
+/QSPI_LCD
+
 
 # eide template
 *.ept
 *.eide-template
-*.uvguix.*
-*.clang*
-*.eide.*
+.clangd
+.clang-format
+*.json
+*.scvd
+*.administrator
+*.kun66666
+*.shiya
+*.uvoptx
 *.lst
